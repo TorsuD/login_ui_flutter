@@ -43,8 +43,9 @@ class ContinuePage extends StatelessWidget {
           ),
 
           // The Image
+          Spacer(),
           Container(
-            margin: const EdgeInsets.all(50.0),
+            margin: const EdgeInsets.fromLTRB(50, 0, 50, 0),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(100.0),
               color: const Color.fromARGB(255, 238, 238, 238),
@@ -57,6 +58,7 @@ class ContinuePage extends StatelessWidget {
               ),
             ),
           ),
+          Spacer(),
 
           // The Button Section
           Container(

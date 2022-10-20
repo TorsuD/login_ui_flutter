@@ -37,11 +37,13 @@ class _LoginState extends State<Login> {
           ),
 
           // The Login Image
+          Spacer(),
           Container(
-            margin: EdgeInsets.fromLTRB(0, 30, 0, 20),
+            margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
             height: 100.0,
             child: Image.asset("../assets/women.png"),
           ),
+          Spacer(),
 
           // The Input Fields
           Container(
@@ -153,7 +155,7 @@ class _LoginState extends State<Login> {
 
           // Terms and Conditions
           Container(
-            margin: const EdgeInsets.fromLTRB(0, 100, 0, 0),
+            margin: const EdgeInsets.fromLTRB(0, 10, 0, 0),
             padding: const EdgeInsets.all(10),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
