@@ -106,7 +106,7 @@ class ContinuePage extends StatelessWidget {
                         backgroundColor: Color.fromARGB(255, 0, 82, 148),
                       ),
                       onPressed: () {},
-                      child: const Text("Continue with Facebook")),
+                      child: const Text("Continue with Facebook.")),
                 )
               ],
             ),
@@ -116,7 +116,7 @@ class ContinuePage extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Don't have an account? "),
+                const Text("Don't have an account? "),
                 GestureDetector(
                   onTap: () {
                     Navigator.of(context).push(
