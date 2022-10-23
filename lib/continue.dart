@@ -112,7 +112,7 @@ class ContinuePage extends StatelessWidget {
             ),
           ),
           Container(
-            margin: EdgeInsets.all(15.0),
+            margin: const EdgeInsets.all(15.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
