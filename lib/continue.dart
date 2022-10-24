@@ -103,7 +103,7 @@ class ContinuePage extends StatelessWidget {
                   width: 450.0,
                   child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Color.fromARGB(255, 0, 82, 148),
+                        backgroundColor: const Color.fromARGB(255, 0, 82, 148),
                       ),
                       onPressed: () {},
                       child: const Text("Continue with Facebook.")),
