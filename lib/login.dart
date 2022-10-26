@@ -68,7 +68,7 @@ class _LoginState extends State<Login> {
             padding: const EdgeInsets.all(5),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
-              color: Color.fromARGB(255, 229, 243, 255),
+              color: const Color.fromARGB(255, 229, 243, 255),
             ),
             margin: const EdgeInsets.all(10.0),
             child: const TextField(
