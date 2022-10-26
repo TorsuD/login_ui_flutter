@@ -137,7 +137,7 @@ class ContinuePage extends StatelessWidget {
           ),
           Container(
             alignment: Alignment.center,
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Column(
               children: [
                 const Text(
