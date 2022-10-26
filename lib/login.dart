@@ -137,7 +137,7 @@ class _LoginState extends State<Login> {
           ),
 
           Container(
-            margin: EdgeInsets.all(20),
+            margin: const EdgeInsets.all(20),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
