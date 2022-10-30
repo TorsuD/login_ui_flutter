@@ -43,7 +43,7 @@ class ContinuePage extends StatelessWidget {
           ),
 
           // The Image
-          Spacer(),
+          const Spacer(),
           Container(
             margin: const EdgeInsets.fromLTRB(50, 0, 50, 0),
             decoration: BoxDecoration(
@@ -122,7 +122,7 @@ class ContinuePage extends StatelessWidget {
                     Navigator.of(context).push(
                       MaterialPageRoute(
                         builder: (BuildContext context) {
-                          return SignUp();
+                          return const SignUp();
                         },
                       ),
                     );
