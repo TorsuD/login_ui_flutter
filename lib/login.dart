@@ -37,9 +37,9 @@ class _LoginState extends State<Login> {
           ),
 
           // The Login Image
-          Spacer(),
+          const Spacer(),
           Container(
-            margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
             height: 100.0,
             child: Image.asset("../assets/women.png"),
           ),
