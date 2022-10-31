@@ -13,7 +13,7 @@ class ContinuePage extends StatelessWidget {
             onTap: (() {
               Navigator.of(context).push(MaterialPageRoute(
                 builder: (BuildContext context) {
-                  return Login();
+                  return const Login();
                 },
               ));
             }),
