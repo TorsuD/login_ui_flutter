@@ -6,7 +6,8 @@ class SignUp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Text("The Sign up page"),
-    );
+        body: Center(
+      child: Text("Sign up page"),
+    ));
   }
 }
