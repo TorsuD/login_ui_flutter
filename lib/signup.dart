@@ -7,7 +7,7 @@ class SignUp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
         body: Center(
-      child: Text("Sign up page"),
+      child: Text("Flutter Sign up page"),
     ));
   }
 }
